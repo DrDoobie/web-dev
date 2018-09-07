@@ -14,8 +14,9 @@
 
 .search {
     font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
     color: rgba(83, 83, 83, 0.432);
-    font-size: 35px;
+    font-size: 40px;
     background-color: rgb(231, 231, 231);
     text-align: left;   
 }
