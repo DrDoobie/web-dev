@@ -1,17 +1,28 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <link href = "style.css" rel = "stylesheet" type = "text/css">
-        <title>
-            Contact Form
-        </title>
+        <title>Contact Form</title>
     </head>
     <body>
-        <div>
-            <p>
-                Contact Form
-            </p>
+        <div class = "form">
+            <h1>Contact Form</h1>
+            <div class = "name">
+                <label>Full Name:</label>
+                <input class = "text-b" type = "text" placeholder = "Johnny Appleseed">
+            </div>
+            <div class = "email">
+                <label>Email Address:</label>
+                <input class = "text-b" type = "text" placeholder = "a.johnny@doobie.com">
+            </div>
+            <div class = "message">
+                <label>Message:</label>
+                <textarea class = "text-b"></textarea>
+            </div>
+            <a class ="contact">Contact</a>
         </div>
-        <script src = "app.js"></script>
     </body>
 </html>
