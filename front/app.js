@@ -7,12 +7,14 @@ userInp.addEventListener("keydown", function (e) {
 
 function validate(e) {
     var text = e.target.value;
-    search(text);
+    window.open(href = "results.html");
+    //search(text);
 }
 
 function func () {
     let userInp = document.querySelector("#userInp").value;
-    search(userInp);
+    window.open(href = "results.html");
+    //search(userInp);
 }
 
 function search (value) {
