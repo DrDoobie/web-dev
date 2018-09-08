@@ -19,5 +19,7 @@
     font-size: 40px;
     background-color: rgb(231, 231, 231);
     text-align: left;   
+    border-radius: 25px;
+    transition: 0.4s;
 }
 

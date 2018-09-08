@@ -11,12 +11,6 @@ function validate(e) {
     //search(text);
 }
 
-function func () {
-    let userInp = document.querySelector("#userInp").value;
-    window.open(href = "results.html");
-    //search(userInp);
-}
-
 function search (value) {
     document.write(value);
 }
